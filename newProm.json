@@ -1,0 +1,24 @@
+[
+  {
+    "lastName": "Dupond",
+    "firstName": "John",
+    "id": 1830
+  },
+  {
+    "lastName": "Doe",
+    "firstName": "John",
+    "id": 432,
+    "nationality": "American"
+  },
+  {
+    "lastName": "HAMILTON",
+    "firstName": "Lewis",
+    "id": "2023",
+    "nationality": "English"
+  },
+  {
+    "lastName": "RENAULT",
+    "firstName": "Francois",
+    "id": "2024"
+  }
+]
