@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Side</title>
+    <script src="text2.js"></script>
+</head>
+<body>
+    <menu class="bar">
+        <button id="SHOW_B" onclick="showTxt()">show text</button>
+        <button id="BUT_ADD" onclick="showAddForm()">add element</button>
+        <button id="REMOVE" onclick="showRemoveForm()">remove element</button>
+        <button id="CLEAR" onclick="clearJSON()">clear</button>
+        <button id="RESTORE" onclick="restoreJSON()">restore</button>
+        <button id="PIEB" onclick="showPieChart()">show pie chart</button>
+        <button id="BUT_LPI" onclick="showLocalPieChart()">show local pie chart</button>
+    </menu>
+    <div>
+        <input id="indexTF" type="number" placeholder="index" style="visibility: hidden;">
+        <button id="DOREM"  style="visibility: hidden;" onclick="remove()">remove</button>
+    </div>
+    <div>
+        <input id="titleTF" type="text" placeholder="text" style="visibility: hidden;">
+        <input id="colorTF" type="text" placeholder="color" style="visibility: hidden;">
+        <input id="valueTF" type="number" placeholder="value" style="visibility: hidden;">
+        <button id="VALIDADD"  style="visibility: hidden;" onclick="add()">validate</button>
+    </div>
+    <div id="MAINSHOW"></div>
+</body>
+</html>
